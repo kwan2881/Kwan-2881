@@ -2,8 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { first } from 'rxjs/operators';
-import { AccountService } from 'src/app/_service/account.service';
-import { AlertService } from 'src/app/_service/alert.service';
+import { AccountService, AlertService } from 'src/app/_service';
 
 
 @Component({ templateUrl: 'register.component.html' })
